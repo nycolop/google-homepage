@@ -1,0 +1,114 @@
+body div {
+  margin: 10px 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+body li {
+  list-style-type: none;
+}
+
+#navbar ul {
+  text-align: right;
+}
+
+#navbar li {
+  display: inline;
+  padding: 8px;
+  font-size: 12px;
+}
+
+#navbar button {
+  padding: 5px 25px 5px 25px;
+}
+
+body li a {
+  color: black;
+}
+
+#content {
+  text-align: center;
+}
+
+#content div {
+  padding-top: 10px;
+}
+
+#content .input1 input {
+  border: 0.1px lightgray solid;
+  border-radius: 24px;
+  padding: 0 40px 0 40px;
+  background-color: white;
+  height: 44px;
+  width: 565px;
+}
+
+.input1 input {
+  outline: none;
+}
+
+.fa-search {
+  position: absolute;
+  left: 405px;
+  top: 198px;
+  opacity: 0.7;
+}
+
+.input2 button {
+  margin: 8px 4px 0 0;
+}
+
+.input2 button a {
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+.offer p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.offer a {
+  color: rgb(19, 19, 170);
+}
+
+#footer p,
+#footer a {
+  color: #70757a;
+}
+
+#footer .country {
+  background-color: rgb(242, 242, 242);
+
+}
+
+.footernav {
+  background-color: rgb(242, 242, 242);
+}
+
+.footernav .fnav1 {
+    display: inline-block;
+}
+
+.footernav .fnav2 {
+    display: inline-block;
+}
+
+.footernav .fnav1 li,
+.footernav .fnav2 li {
+    display: inline;
+    padding: 13px;
+}
+
+.footernav ul {
+    display: flex;
+    white-space: nowrap;
+    justify-content: space-between;
+}
